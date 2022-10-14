@@ -1,0 +1,127 @@
+C:\Users\Migue\OneDrive\Documents\Programas\C#\ProjetoFeiraTécnica\bin\Debug\net5.0-windows\ProjetoFeiraTécnica.exe
+C:\Users\Migue\OneDrive\Documents\Programas\C#\ProjetoFeiraTécnica\bin\Debug\net5.0-windows\ProjetoFeiraTécnica.deps.json
+C:\Users\Migue\OneDrive\Documents\Programas\C#\ProjetoFeiraTécnica\bin\Debug\net5.0-windows\ProjetoFeiraTécnica.runtimeconfig.json
+C:\Users\Migue\OneDrive\Documents\Programas\C#\ProjetoFeiraTécnica\bin\Debug\net5.0-windows\ProjetoFeiraTécnica.runtimeconfig.dev.json
+C:\Users\Migue\OneDrive\Documents\Programas\C#\ProjetoFeiraTécnica\bin\Debug\net5.0-windows\ProjetoFeiraTécnica.dll
+C:\Users\Migue\OneDrive\Documents\Programas\C#\ProjetoFeiraTécnica\bin\Debug\net5.0-windows\ref\ProjetoFeiraTécnica.dll
+C:\Users\Migue\OneDrive\Documents\Programas\C#\ProjetoFeiraTécnica\bin\Debug\net5.0-windows\ProjetoFeiraTécnica.pdb
+C:\Users\Migue\OneDrive\Documents\Programas\C#\ProjetoFeiraTécnica\obj\Debug\net5.0-windows\ProjetoFeiraTécnica.csproj.AssemblyReference.cache
+C:\Users\Migue\OneDrive\Documents\Programas\C#\ProjetoFeiraTécnica\obj\Debug\net5.0-windows\ProjetoFeiraTécnica.csproj.GenerateResource.cache
+C:\Users\Migue\OneDrive\Documents\Programas\C#\ProjetoFeiraTécnica\obj\Debug\net5.0-windows\ProjetoFeiraTécnica.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Migue\OneDrive\Documents\Programas\C#\ProjetoFeiraTécnica\obj\Debug\net5.0-windows\ProjetoFeiraTécnica.AssemblyInfoInputs.cache
+C:\Users\Migue\OneDrive\Documents\Programas\C#\ProjetoFeiraTécnica\obj\Debug\net5.0-windows\ProjetoFeiraTécnica.AssemblyInfo.cs
+C:\Users\Migue\OneDrive\Documents\Programas\C#\ProjetoFeiraTécnica\obj\Debug\net5.0-windows\ProjetoFeiraTécnica.csproj.CoreCompileInputs.cache
+C:\Users\Migue\OneDrive\Documents\Programas\C#\ProjetoFeiraTécnica\obj\Debug\net5.0-windows\ProjetoFeiraTécnica.dll
+C:\Users\Migue\OneDrive\Documents\Programas\C#\ProjetoFeiraTécnica\obj\Debug\net5.0-windows\ref\ProjetoFeiraTécnica.dll
+C:\Users\Migue\OneDrive\Documents\Programas\C#\ProjetoFeiraTécnica\obj\Debug\net5.0-windows\ProjetoFeiraTécnica.pdb
+C:\Users\Migue\OneDrive\Documents\Programas\C#\ProjetoFeiraTécnica\obj\Debug\net5.0-windows\ProjetoFeiraTécnica.genruntimeconfig.cache
+C:\Users\Migue\OneDrive\Documents\Programas\C#\ProjetoFeiraTécnica\obj\Debug\net5.0-windows\ProjetoFeiraTécnica.Menu.resources
+C:\Users\Migue\OneDrive\Documents\Programas\C#\ProjetoFeiraTécnica\obj\Debug\net5.0-windows\ProjetoFeiraTécnica.Properties.Resources.resources
+C:\Users\Migue\OneDrive\Documents\Programas\C#\ProjetoFeiraTécnica\obj\Debug\net5.0-windows\ProjetoFeiraTécnica.Form2.resources
+C:\Users\Migue\OneDrive\Documents\Programas\C#\ProjetoFeiraTécnica\bin\Debug\net5.0-windows\Google.Protobuf.dll
+C:\Users\Migue\OneDrive\Documents\Programas\C#\ProjetoFeiraTécnica\bin\Debug\net5.0-windows\K4os.Compression.LZ4.dll
+C:\Users\Migue\OneDrive\Documents\Programas\C#\ProjetoFeiraTécnica\bin\Debug\net5.0-windows\K4os.Compression.LZ4.Streams.dll
+C:\Users\Migue\OneDrive\Documents\Programas\C#\ProjetoFeiraTécnica\bin\Debug\net5.0-windows\K4os.Hash.xxHash.dll
+C:\Users\Migue\OneDrive\Documents\Programas\C#\ProjetoFeiraTécnica\bin\Debug\net5.0-windows\MySql.Data.dll
+C:\Users\Migue\OneDrive\Documents\Programas\C#\ProjetoFeiraTécnica\bin\Debug\net5.0-windows\Ubiety.Dns.Core.dll
+C:\Users\Migue\OneDrive\Documents\Programas\C#\ProjetoFeiraTécnica\bin\Debug\net5.0-windows\ZstdNet.dll
+C:\Users\Migue\OneDrive\Documents\Programas\C#\ProjetoFeiraTécnica\bin\Debug\net5.0-windows\BouncyCastle.Crypto.dll
+C:\Users\Migue\OneDrive\Documents\Programas\C#\ProjetoFeiraTécnica\obj\Debug\net5.0-windows\ProjetoFeiraTécnica.csproj.CopyComplete
+C:\Users\Miguel Brito\Desktop\Miguel\ProjetoFeiraTécnica\bin\Debug\net5.0-windows\ProjetoFeiraTécnica.exe
+C:\Users\Miguel Brito\Desktop\Miguel\ProjetoFeiraTécnica\bin\Debug\net5.0-windows\ProjetoFeiraTécnica.deps.json
+C:\Users\Miguel Brito\Desktop\Miguel\ProjetoFeiraTécnica\bin\Debug\net5.0-windows\ProjetoFeiraTécnica.runtimeconfig.json
+C:\Users\Miguel Brito\Desktop\Miguel\ProjetoFeiraTécnica\bin\Debug\net5.0-windows\ProjetoFeiraTécnica.runtimeconfig.dev.json
+C:\Users\Miguel Brito\Desktop\Miguel\ProjetoFeiraTécnica\bin\Debug\net5.0-windows\ProjetoFeiraTécnica.dll
+C:\Users\Miguel Brito\Desktop\Miguel\ProjetoFeiraTécnica\bin\Debug\net5.0-windows\ProjetoFeiraTécnica.pdb
+C:\Users\Miguel Brito\Desktop\Miguel\ProjetoFeiraTécnica\bin\Debug\net5.0-windows\Google.Protobuf.dll
+C:\Users\Miguel Brito\Desktop\Miguel\ProjetoFeiraTécnica\bin\Debug\net5.0-windows\K4os.Compression.LZ4.dll
+C:\Users\Miguel Brito\Desktop\Miguel\ProjetoFeiraTécnica\bin\Debug\net5.0-windows\K4os.Compression.LZ4.Streams.dll
+C:\Users\Miguel Brito\Desktop\Miguel\ProjetoFeiraTécnica\bin\Debug\net5.0-windows\K4os.Hash.xxHash.dll
+C:\Users\Miguel Brito\Desktop\Miguel\ProjetoFeiraTécnica\bin\Debug\net5.0-windows\MySql.Data.dll
+C:\Users\Miguel Brito\Desktop\Miguel\ProjetoFeiraTécnica\bin\Debug\net5.0-windows\Ubiety.Dns.Core.dll
+C:\Users\Miguel Brito\Desktop\Miguel\ProjetoFeiraTécnica\bin\Debug\net5.0-windows\ZstdNet.dll
+C:\Users\Miguel Brito\Desktop\Miguel\ProjetoFeiraTécnica\bin\Debug\net5.0-windows\BouncyCastle.Crypto.dll
+C:\Users\Miguel Brito\Desktop\Miguel\ProjetoFeiraTécnica\obj\Debug\net5.0-windows\ProjetoFeiraTécnica.csproj.AssemblyReference.cache
+C:\Users\Miguel Brito\Desktop\Miguel\ProjetoFeiraTécnica\obj\Debug\net5.0-windows\ProjetoFeiraTécnica.Menu.resources
+C:\Users\Miguel Brito\Desktop\Miguel\ProjetoFeiraTécnica\obj\Debug\net5.0-windows\ProjetoFeiraTécnica.Form2.resources
+C:\Users\Miguel Brito\Desktop\Miguel\ProjetoFeiraTécnica\obj\Debug\net5.0-windows\ProjetoFeiraTécnica.Properties.Resources.resources
+C:\Users\Miguel Brito\Desktop\Miguel\ProjetoFeiraTécnica\obj\Debug\net5.0-windows\ProjetoFeiraTécnica.csproj.GenerateResource.cache
+C:\Users\Miguel Brito\Desktop\Miguel\ProjetoFeiraTécnica\obj\Debug\net5.0-windows\ProjetoFeiraTécnica.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Miguel Brito\Desktop\Miguel\ProjetoFeiraTécnica\obj\Debug\net5.0-windows\ProjetoFeiraTécnica.AssemblyInfoInputs.cache
+C:\Users\Miguel Brito\Desktop\Miguel\ProjetoFeiraTécnica\obj\Debug\net5.0-windows\ProjetoFeiraTécnica.AssemblyInfo.cs
+C:\Users\Miguel Brito\Desktop\Miguel\ProjetoFeiraTécnica\obj\Debug\net5.0-windows\ProjetoFeiraTécnica.csproj.CoreCompileInputs.cache
+C:\Users\Miguel Brito\Desktop\Miguel\ProjetoFeiraTécnica\obj\Debug\net5.0-windows\ProjetoFeiraTécnica.csproj.CopyComplete
+C:\Users\Miguel Brito\Desktop\Miguel\ProjetoFeiraTécnica\obj\Debug\net5.0-windows\ProjetoFeiraTécnica.dll
+C:\Users\Miguel Brito\Desktop\Miguel\ProjetoFeiraTécnica\obj\Debug\net5.0-windows\refint\ProjetoFeiraTécnica.dll
+C:\Users\Miguel Brito\Desktop\Miguel\ProjetoFeiraTécnica\obj\Debug\net5.0-windows\ProjetoFeiraTécnica.pdb
+C:\Users\Miguel Brito\Desktop\Miguel\ProjetoFeiraTécnica\obj\Debug\net5.0-windows\ProjetoFeiraTécnica.genruntimeconfig.cache
+C:\Users\Miguel Brito\Desktop\Miguel\ProjetoFeiraTécnica\obj\Debug\net5.0-windows\ref\ProjetoFeiraTécnica.dll
+C:\Users\Miguel Brito\Desktop\Miguel\ProjetoFeiraTécnica\bin\Debug\net5.0-windows\Microsoft.Speech.dll
+C:\Users\aluno\Desktop\ProjetoFeiraTécnica\bin\Debug\net5.0-windows\ProjetoFeiraTécnica.exe
+C:\Users\aluno\Desktop\ProjetoFeiraTécnica\bin\Debug\net5.0-windows\ProjetoFeiraTécnica.deps.json
+C:\Users\aluno\Desktop\ProjetoFeiraTécnica\bin\Debug\net5.0-windows\ProjetoFeiraTécnica.runtimeconfig.json
+C:\Users\aluno\Desktop\ProjetoFeiraTécnica\bin\Debug\net5.0-windows\ProjetoFeiraTécnica.runtimeconfig.dev.json
+C:\Users\aluno\Desktop\ProjetoFeiraTécnica\bin\Debug\net5.0-windows\ProjetoFeiraTécnica.dll
+C:\Users\aluno\Desktop\ProjetoFeiraTécnica\bin\Debug\net5.0-windows\ref\ProjetoFeiraTécnica.dll
+C:\Users\aluno\Desktop\ProjetoFeiraTécnica\bin\Debug\net5.0-windows\ProjetoFeiraTécnica.pdb
+C:\Users\aluno\Desktop\ProjetoFeiraTécnica\bin\Debug\net5.0-windows\Google.Protobuf.dll
+C:\Users\aluno\Desktop\ProjetoFeiraTécnica\bin\Debug\net5.0-windows\K4os.Compression.LZ4.dll
+C:\Users\aluno\Desktop\ProjetoFeiraTécnica\bin\Debug\net5.0-windows\K4os.Compression.LZ4.Streams.dll
+C:\Users\aluno\Desktop\ProjetoFeiraTécnica\bin\Debug\net5.0-windows\K4os.Hash.xxHash.dll
+C:\Users\aluno\Desktop\ProjetoFeiraTécnica\bin\Debug\net5.0-windows\MySql.Data.dll
+C:\Users\aluno\Desktop\ProjetoFeiraTécnica\bin\Debug\net5.0-windows\Ubiety.Dns.Core.dll
+C:\Users\aluno\Desktop\ProjetoFeiraTécnica\bin\Debug\net5.0-windows\ZstdNet.dll
+C:\Users\aluno\Desktop\ProjetoFeiraTécnica\bin\Debug\net5.0-windows\BouncyCastle.Crypto.dll
+C:\Users\aluno\Desktop\ProjetoFeiraTécnica\bin\Debug\net5.0-windows\System.Speech.dll
+C:\Users\aluno\Desktop\ProjetoFeiraTécnica\bin\Debug\net5.0-windows\runtimes\win\lib\netcoreapp3.1\System.Speech.dll
+C:\Users\aluno\Desktop\ProjetoFeiraTécnica\obj\Debug\net5.0-windows\ProjetoFeiraTécnica.csprojAssemblyReference.cache
+C:\Users\aluno\Desktop\ProjetoFeiraTécnica\obj\Debug\net5.0-windows\ProjetoFeiraTécnica.Menu.resources
+C:\Users\aluno\Desktop\ProjetoFeiraTécnica\obj\Debug\net5.0-windows\ProjetoFeiraTécnica.Form2.resources
+C:\Users\aluno\Desktop\ProjetoFeiraTécnica\obj\Debug\net5.0-windows\ProjetoFeiraTécnica.Properties.Resources.resources
+C:\Users\aluno\Desktop\ProjetoFeiraTécnica\obj\Debug\net5.0-windows\ProjetoFeiraTécnica.csproj.GenerateResource.cache
+C:\Users\aluno\Desktop\ProjetoFeiraTécnica\obj\Debug\net5.0-windows\ProjetoFeiraTécnica.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aluno\Desktop\ProjetoFeiraTécnica\obj\Debug\net5.0-windows\ProjetoFeiraTécnica.AssemblyInfoInputs.cache
+C:\Users\aluno\Desktop\ProjetoFeiraTécnica\obj\Debug\net5.0-windows\ProjetoFeiraTécnica.AssemblyInfo.cs
+C:\Users\aluno\Desktop\ProjetoFeiraTécnica\obj\Debug\net5.0-windows\ProjetoFeiraTécnica.csproj.CoreCompileInputs.cache
+C:\Users\aluno\Desktop\ProjetoFeiraTécnica\obj\Debug\net5.0-windows\ProjetoFeiraTécnica.csproj.CopyComplete
+C:\Users\aluno\Desktop\ProjetoFeiraTécnica\obj\Debug\net5.0-windows\ProjetoFeiraTécnica.dll
+C:\Users\aluno\Desktop\ProjetoFeiraTécnica\obj\Debug\net5.0-windows\ref\ProjetoFeiraTécnica.dll
+C:\Users\aluno\Desktop\ProjetoFeiraTécnica\obj\Debug\net5.0-windows\ProjetoFeiraTécnica.pdb
+C:\Users\aluno\Desktop\ProjetoFeiraTécnica\obj\Debug\net5.0-windows\ProjetoFeiraTécnica.genruntimeconfig.cache
+C:\Users\aluno\Desktop\ProjetoFeiraTécnica\obj\Debug\net5.0-windows\ProjetoFeiraTécnica.Form3.resources
+E:\Desktop\ProjetoFeiraTécnica\bin\Debug\net5.0-windows\ProjetoFeiraTécnica.exe
+E:\Desktop\ProjetoFeiraTécnica\bin\Debug\net5.0-windows\ProjetoFeiraTécnica.deps.json
+E:\Desktop\ProjetoFeiraTécnica\bin\Debug\net5.0-windows\ProjetoFeiraTécnica.runtimeconfig.json
+E:\Desktop\ProjetoFeiraTécnica\bin\Debug\net5.0-windows\ProjetoFeiraTécnica.runtimeconfig.dev.json
+E:\Desktop\ProjetoFeiraTécnica\bin\Debug\net5.0-windows\ProjetoFeiraTécnica.dll
+E:\Desktop\ProjetoFeiraTécnica\bin\Debug\net5.0-windows\ref\ProjetoFeiraTécnica.dll
+E:\Desktop\ProjetoFeiraTécnica\bin\Debug\net5.0-windows\ProjetoFeiraTécnica.pdb
+E:\Desktop\ProjetoFeiraTécnica\bin\Debug\net5.0-windows\Google.Protobuf.dll
+E:\Desktop\ProjetoFeiraTécnica\bin\Debug\net5.0-windows\K4os.Compression.LZ4.dll
+E:\Desktop\ProjetoFeiraTécnica\bin\Debug\net5.0-windows\K4os.Compression.LZ4.Streams.dll
+E:\Desktop\ProjetoFeiraTécnica\bin\Debug\net5.0-windows\K4os.Hash.xxHash.dll
+E:\Desktop\ProjetoFeiraTécnica\bin\Debug\net5.0-windows\MySql.Data.dll
+E:\Desktop\ProjetoFeiraTécnica\bin\Debug\net5.0-windows\Ubiety.Dns.Core.dll
+E:\Desktop\ProjetoFeiraTécnica\bin\Debug\net5.0-windows\ZstdNet.dll
+E:\Desktop\ProjetoFeiraTécnica\bin\Debug\net5.0-windows\BouncyCastle.Crypto.dll
+E:\Desktop\ProjetoFeiraTécnica\bin\Debug\net5.0-windows\System.Speech.dll
+E:\Desktop\ProjetoFeiraTécnica\bin\Debug\net5.0-windows\runtimes\win\lib\netcoreapp3.1\System.Speech.dll
+E:\Desktop\ProjetoFeiraTécnica\obj\Debug\net5.0-windows\ProjetoFeiraTécnica.csproj.AssemblyReference.cache
+E:\Desktop\ProjetoFeiraTécnica\obj\Debug\net5.0-windows\ProjetoFeiraTécnica.Menu.resources
+E:\Desktop\ProjetoFeiraTécnica\obj\Debug\net5.0-windows\ProjetoFeiraTécnica.Form2.resources
+E:\Desktop\ProjetoFeiraTécnica\obj\Debug\net5.0-windows\ProjetoFeiraTécnica.Form3.resources
+E:\Desktop\ProjetoFeiraTécnica\obj\Debug\net5.0-windows\ProjetoFeiraTécnica.Properties.Resources.resources
+E:\Desktop\ProjetoFeiraTécnica\obj\Debug\net5.0-windows\ProjetoFeiraTécnica.csproj.GenerateResource.cache
+E:\Desktop\ProjetoFeiraTécnica\obj\Debug\net5.0-windows\ProjetoFeiraTécnica.GeneratedMSBuildEditorConfig.editorconfig
+E:\Desktop\ProjetoFeiraTécnica\obj\Debug\net5.0-windows\ProjetoFeiraTécnica.AssemblyInfoInputs.cache
+E:\Desktop\ProjetoFeiraTécnica\obj\Debug\net5.0-windows\ProjetoFeiraTécnica.AssemblyInfo.cs
+E:\Desktop\ProjetoFeiraTécnica\obj\Debug\net5.0-windows\ProjetoFeiraTécnica.csproj.CoreCompileInputs.cache
+E:\Desktop\ProjetoFeiraTécnica\obj\Debug\net5.0-windows\ProjetoFeiraTécnica.csproj.CopyComplete
+E:\Desktop\ProjetoFeiraTécnica\obj\Debug\net5.0-windows\ProjetoFeiraTécnica.dll
+E:\Desktop\ProjetoFeiraTécnica\obj\Debug\net5.0-windows\ref\ProjetoFeiraTécnica.dll
+E:\Desktop\ProjetoFeiraTécnica\obj\Debug\net5.0-windows\ProjetoFeiraTécnica.pdb
+E:\Desktop\ProjetoFeiraTécnica\obj\Debug\net5.0-windows\ProjetoFeiraTécnica.genruntimeconfig.cache
+C:\Users\Migue\OneDrive\Documents\Programas\C#\ProjetoFeiraTécnica\obj\Debug\net5.0-windows\ProjetoFeiraTécnica.Form3.resources
+C:\Users\Migue\OneDrive\Documents\Programas\C#\ProjetoFeiraTécnica\bin\Debug\net5.0-windows\MetroFramework.Design.dll
+C:\Users\Migue\OneDrive\Documents\Programas\C#\ProjetoFeiraTécnica\bin\Debug\net5.0-windows\MetroFramework.Fonts.dll
+C:\Users\Migue\OneDrive\Documents\Programas\C#\ProjetoFeiraTécnica\bin\Debug\net5.0-windows\MetroFramework.dll
