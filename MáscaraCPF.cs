@@ -6,15 +6,15 @@ private void textBox1_KeyPress(object sender, KeyPressEventArgs e)
     }
     else
     {
-       if ((textBox2.Text.Length == 3 || textBox2.Text.Length == 7) && e.KeyChar != (char)Keys.Back)
+       if ((textBox1.Text.Length == 3 || textBox1.Text.Length == 7) && e.KeyChar != (char)Keys.Back)
        {
-           textBox2.Text += ".";
-           textBox2.Select(textBox2.Text.Length, 0);
+           textBox1.Text += ".";
+           textBox1.Select(textBox1.Text.Length, 0);
        }
-       else if (textBox2.Text.Length == 11 && e.KeyChar != (char)Keys.Back)
+       else if (textBox1.Text.Length == 11 && e.KeyChar != (char)Keys.Back)
        {
-           textBox2.Text += "-";
-           textBox2.Select(textBox2.Text.Length, 0);
+           textBox1.Text += "-";
+           textBox1.Select(textBox1.Text.Length, 0);
        }
     }
 }
