@@ -6,20 +6,20 @@ private void textBox1_KeyPress(object sender, KeyPressEventArgs e)
     }
     else
     {
-        if (textBox6.Text.Length == 0)
+        if (textBox1.Text.Length == 0)
         {
-            textBox6.Text = "(";
-            textBox6.Select(textBox6.Text.Length, 0);
+            textBox1.Text = "(";
+            textBox1.Select(textBox1.Text.Length, 0);
         }
-        else if(textBox6.Text.Length == 3)
+        else if(textBox1.Text.Length == 3)
         {
-            textBox6.Text += ") ";
-            textBox6.Select(textBox6.Text.Length, 0);
+            textBox1.Text += ") ";
+            textBox1.Select(textBox1.Text.Length, 0);
         }
-        else if (textBox6.Text.Length == 10)
+        else if (textBox1.Text.Length == 10)
         {
-            textBox6.Text += "-";
-            textBox6.Select(textBox6.Text.Length, 0);
+            textBox1.Text += "-";
+            textBox1.Select(textBox6.Text.Length, 0);
         }
     }
 }
