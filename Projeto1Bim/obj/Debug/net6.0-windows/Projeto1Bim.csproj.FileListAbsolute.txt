@@ -1,0 +1,17 @@
+C:\Users\Migue\OneDrive\Documents\Programas\C#\Projeto1Bim\bin\Debug\net6.0-windows\Projeto1Bim.exe
+C:\Users\Migue\OneDrive\Documents\Programas\C#\Projeto1Bim\bin\Debug\net6.0-windows\Projeto1Bim.deps.json
+C:\Users\Migue\OneDrive\Documents\Programas\C#\Projeto1Bim\bin\Debug\net6.0-windows\Projeto1Bim.runtimeconfig.json
+C:\Users\Migue\OneDrive\Documents\Programas\C#\Projeto1Bim\bin\Debug\net6.0-windows\Projeto1Bim.dll
+C:\Users\Migue\OneDrive\Documents\Programas\C#\Projeto1Bim\bin\Debug\net6.0-windows\Projeto1Bim.pdb
+C:\Users\Migue\OneDrive\Documents\Programas\C#\Projeto1Bim\obj\Debug\net6.0-windows\Projeto1Bim.csproj.AssemblyReference.cache
+C:\Users\Migue\OneDrive\Documents\Programas\C#\Projeto1Bim\obj\Debug\net6.0-windows\Projeto1Bim.Form1.resources
+C:\Users\Migue\OneDrive\Documents\Programas\C#\Projeto1Bim\obj\Debug\net6.0-windows\Projeto1Bim.csproj.GenerateResource.cache
+C:\Users\Migue\OneDrive\Documents\Programas\C#\Projeto1Bim\obj\Debug\net6.0-windows\Projeto1Bim.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Migue\OneDrive\Documents\Programas\C#\Projeto1Bim\obj\Debug\net6.0-windows\Projeto1Bim.AssemblyInfoInputs.cache
+C:\Users\Migue\OneDrive\Documents\Programas\C#\Projeto1Bim\obj\Debug\net6.0-windows\Projeto1Bim.AssemblyInfo.cs
+C:\Users\Migue\OneDrive\Documents\Programas\C#\Projeto1Bim\obj\Debug\net6.0-windows\Projeto1Bim.csproj.CoreCompileInputs.cache
+C:\Users\Migue\OneDrive\Documents\Programas\C#\Projeto1Bim\obj\Debug\net6.0-windows\Projeto1Bim.dll
+C:\Users\Migue\OneDrive\Documents\Programas\C#\Projeto1Bim\obj\Debug\net6.0-windows\refint\Projeto1Bim.dll
+C:\Users\Migue\OneDrive\Documents\Programas\C#\Projeto1Bim\obj\Debug\net6.0-windows\Projeto1Bim.pdb
+C:\Users\Migue\OneDrive\Documents\Programas\C#\Projeto1Bim\obj\Debug\net6.0-windows\Projeto1Bim.genruntimeconfig.cache
+C:\Users\Migue\OneDrive\Documents\Programas\C#\Projeto1Bim\obj\Debug\net6.0-windows\ref\Projeto1Bim.dll
