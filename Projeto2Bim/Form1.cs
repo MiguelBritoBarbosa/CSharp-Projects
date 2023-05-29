@@ -613,7 +613,9 @@ namespace Projeto2Bim
 
         private void button31_Click(object sender, EventArgs e)
         {
-            string path = @"C:\Arquivos\dados.dat";
+            string fileName = Microsoft.VisualBasic.Interaction.InputBox("Digite o nome do arquivo. (Circulo/Elipse)", "Nome do Arquivo", "", 100, 100);
+
+            string path = @$"C:\Arquivos\{fileName}.dat";
             File.WriteAllText(path, tipoDesenho + Environment.NewLine);
             File.AppendAllText(path, pontosSalvos.ToString() + Environment.NewLine);
             for (int i = 0; i < pontosSalvos; i++)
@@ -667,7 +669,11 @@ namespace Projeto2Bim
 
         private void button32_Click(object sender, EventArgs e)
         {
-            String[] lines = System.IO.File.ReadAllLines(@"C:\Arquivos\dados.dat");
+            OpenFileDialog arquivo = new OpenFileDialog();
+            arquivo.InitialDirectory = @"C:\Arquivos\";
+            arquivo.ShowDialog();
+            string fileName = arquivo.FileName;
+            String[] lines = System.IO.File.ReadAllLines(@$"C:\Arquivos\{fileName}.dat");
             tipoDesenho = lines[0];
             pontosSalvos = int.Parse(lines[1]);
             pontos = pontosSalvos - 1;
@@ -676,6 +682,7 @@ namespace Projeto2Bim
             {
                 x[j] = int.Parse(lines[i]);
                 y[j] = int.Parse(lines[i + 1]);
+                MessageBox.Show($"({x[j]},{y[j]})");
                 j++;
             }
             int[] rgb = new int[3];
@@ -767,18 +774,24 @@ namespace Projeto2Bim
                 }
                 else if (pontos == 1 && tipoDesenho == "elipse")
                 {
-                    DialogResult dialogResult = MessageBox.Show("Desenha desenhar uma Elipse?", "Elipse ou Circulo?", MessageBoxButtons.YesNo);
-                    if (dialogResult == DialogResult.Yes)
+                    string resp = Microsoft.VisualBasic.Interaction.InputBox("Digite qual forma você deseja desenhar. (Circulo/Elipse)", "Circulo ou Elipse", "", 100, 100);
+                    resp = resp.ToLower();
+                    while (resp != "elipse" && resp != "circulo")
                     {
-                        int Largura = int.Parse(Microsoft.VisualBasic.Interaction.InputBox("Selecione a largura", "Largura  Elipse", "", 150, 150));
-                        int Altura = int.Parse(Microsoft.VisualBasic.Interaction.InputBox("Selecione a altura", "Altura Elipse", "", 150, 150));
+                        resp = Microsoft.VisualBasic.Interaction.InputBox("Digite corretamente!", "Circulo ou Elipse", "", 100, 100);
+                        resp = resp.ToLower();
+                    }
+                    if (resp == "elipse")
+                    {
+                        int Largura = int.Parse(Microsoft.VisualBasic.Interaction.InputBox("Selecione a largura", "Largura  Elipse", "", 100, 100));
+                        int Altura = int.Parse(Microsoft.VisualBasic.Interaction.InputBox("Selecione a altura", "Altura Elipse", "", 100, 100));
                         Elipse(e, x[0], y[0], Largura, Altura);
                         pontosSalvos = pontos;
                         pontos = 0;
                     }
-                    else if (dialogResult == DialogResult.No)
+                    else 
                     {
-                        int raio = int.Parse(Microsoft.VisualBasic.Interaction.InputBox("Selecione o raio", "Raio Circulo", "", 150, 150));
+                        int raio = int.Parse(Microsoft.VisualBasic.Interaction.InputBox("Selecione o raio", "Raio Circulo", "", 100, 100));
                         Circulo(e, x[0], y[0], raio, 0, 360);
                         pontosSalvos = pontos;
                         pontos = 0;
