@@ -209,6 +209,7 @@ namespace Projeto2Bim
             {
                 mouseButtonClick = false;
             }
+
             switch (tipoDesenho)
             {
                 case "linha":
@@ -770,46 +771,46 @@ namespace Projeto2Bim
 
                 if (pontos >= 2)
                 {
-                    switch (tipoDesenho)
+
+
+                    if (tipoDesenho == "linha")
                     {
-                        case "linha":
-                            Linha(e, x[0], y[0], x[1], y[1], Caneta);
+                        Linha(e, x[0], y[0], x[1], y[1], Caneta);
+                        pontosSalvos = pontos;
+                        pontos = 0;
+                    }
+                    else if (tipoDesenho == "retangulo")
+                    {
+                        Retangulo(e, x[0], y[0], x[1], y[1]);
+                        pontosSalvos = pontos;
+                        pontos = 0;
+                    }
+                    else if (tipoDesenho == "losango")
+                    {
+                        if (pontos == 4)
+                        {
+                            Losango(e, x[0], y[0], x[1], y[1], x[2], y[2], x[3], y[3]);
                             pontosSalvos = pontos;
                             pontos = 0;
-                            break;
-
-                        case "retangulo":
-                            Retangulo(e, x[0], y[0], x[1], y[1]);
+                        }
+                    }
+                    else if (tipoDesenho == "triangulo")
+                    {
+                        if (pontos == 3)
+                        {
+                            Triangulo(e, x[0], y[0], x[1], y[1], x[2], y[2]);
                             pontosSalvos = pontos;
                             pontos = 0;
-                            break;
-
-                        case "losango":
-                            if (pontos == 4)
-                            {
-                                Losango(e, x[0], y[0], x[1], y[1], x[2], y[2], x[3], y[3]);
-                                pontosSalvos = pontos;
-                                pontos = 0;
-                            }
-                            break;
-                        case "triangulo":
-                            if (pontos == 3)
-                            {
-                                Triangulo(e, x[0], y[0], x[1], y[1], x[2], y[2]);
-                                pontosSalvos = pontos;
-                                pontos = 0;
-                            }
-                            break;
-                        case "pentagono":
-                            if (pontos == 5)
-                            {
-                                Pentagono(e, x[0], y[0], x[1], y[1], x[2], y[2], x[3], y[3], x[4], y[4]);
-                                pontosSalvos = pontos;
-                                pontos = 0;
-                            }
-                            break;
-
-
+                        }
+                    }
+                    else if (tipoDesenho == "pentagono")
+                    {
+                        if (pontos == 5)
+                        {
+                            Pentagono(e, x[0], y[0], x[1], y[1], x[2], y[2], x[3], y[3], x[4], y[4]);
+                            pontosSalvos = pontos;
+                            pontos = 0;
+                        }
                     }
                 }
                 else if (pontos == 1 && tipoDesenho == "elipse" || tipoDesenho == "circulo")
