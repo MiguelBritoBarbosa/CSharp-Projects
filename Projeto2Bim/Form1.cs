@@ -11,6 +11,9 @@ namespace Projeto2Bim
         string tipoDesenho = "linha";
         int pontos;
         int pontosSalvos;
+        int raio;
+        int largura;
+        int altura;
         int[] x = new int[5];
         int[] y = new int[5];
         bool pintar = false;
@@ -206,6 +209,7 @@ namespace Projeto2Bim
             {
                 mouseButtonClick = false;
             }
+
             switch (tipoDesenho)
             {
                 case "linha":
@@ -219,13 +223,24 @@ namespace Projeto2Bim
                 case "losango":
                     pegarCoordenadas(e);
                     break;
+
                 case "triangulo":
                     pegarCoordenadas(e);
                     break;
+
                 case "pentagono":
                     pegarCoordenadas(e);
                     break;
+
                 case "elipse":
+                    string resp = Microsoft.VisualBasic.Interaction.InputBox("Digite qual forma você deseja desenhar. (Circulo/Elipse)", "Circulo ou Elipse", "", 100, 100);
+                    resp = resp.ToLower();
+                    while (resp != "elipse" && resp != "circulo")
+                    {
+                        resp = Microsoft.VisualBasic.Interaction.InputBox("Digite corretamente!", "Circulo ou Elipse", "", 100, 100);
+                        resp = resp.ToLower();
+                    }
+                    tipoDesenho = resp;
                     pegarCoordenadas(e);
                     break;
 
@@ -613,8 +628,23 @@ namespace Projeto2Bim
 
         private void button31_Click(object sender, EventArgs e)
         {
-            string path = @"C:\Arquivos\dados.dat";
+            string fileName = Microsoft.VisualBasic.Interaction.InputBox("Digite o nome do arquivo.", "Nome do Arquivo", "", 100, 100);
+
+            string path = @$"C:\Arquivos\{fileName}.dat";
             File.WriteAllText(path, tipoDesenho + Environment.NewLine);
+            if (tipoDesenho == "elipse")
+            {
+                File.AppendAllText(path, largura.ToString() + Environment.NewLine);
+                File.AppendAllText(path, altura.ToString() + Environment.NewLine);
+                largura = 0;
+                altura = 0;
+            }
+            else if (tipoDesenho == "circulo")
+            {
+                File.AppendAllText(path, raio.ToString() + Environment.NewLine);
+                raio = 0;
+            }
+
             File.AppendAllText(path, pontosSalvos.ToString() + Environment.NewLine);
             for (int i = 0; i < pontosSalvos; i++)
             {
@@ -660,49 +690,67 @@ namespace Projeto2Bim
                 File.AppendAllText(path, "caneta2" + Environment.NewLine);
             }
             pontosSalvos = 0;
-
+           
             MessageBox.Show("Arquivo .dat salvo com sucesso!");
-
         }
 
         private void button32_Click(object sender, EventArgs e)
         {
-            String[] lines = System.IO.File.ReadAllLines(@"C:\Arquivos\dados.dat");
-            tipoDesenho = lines[0];
-            pontosSalvos = int.Parse(lines[1]);
-            pontos = pontosSalvos - 1;
-            int j = 0;
-            for (int i = 2;i < pontosSalvos*2; i = i + 2)
+            OpenFileDialog arquivo = new OpenFileDialog();
+            arquivo.InitialDirectory = @"C:\Arquivos\";
+            arquivo.ShowDialog();
+            string fileName = arquivo.FileName;
+            if (fileName != null)
             {
-                x[j] = int.Parse(lines[i]);
-                y[j] = int.Parse(lines[i + 1]);
-                j++;
-            }
-            int[] rgb = new int[3];
-            for (int i = 0; i < 3; i++)
-            {
-                rgb[i] = int.Parse(lines[1 + (pontosSalvos * 2) + 1 + i]);
-            }
-            float[] dashPattern = new float[int.Parse(lines[1 + (pontosSalvos * 2) + 5])];
-            for (int i = 0; i < int.Parse(lines[1 + (pontosSalvos * 2) + 5]); i++)
-            {
-                dashPattern[i] = int.Parse(lines[1 + (pontosSalvos * 2) + 6 + i]);
-            }
+                String[] lines = System.IO.File.ReadAllLines(fileName);
+                tipoDesenho = lines[0];
+                int posicaoPontos = 1;
+                if (tipoDesenho == "elipse")
+                {
+                    largura = int.Parse(lines[1]);
+                    altura = int.Parse(lines[2]);
+                    posicaoPontos = 3;
+                }
+                else if (tipoDesenho == "circulo")
+                {
+                    raio = int.Parse(lines[1]);
+                    posicaoPontos = 2;
+                }
+                pontosSalvos = int.Parse(lines[posicaoPontos]);
+                pontos = pontosSalvos - 1;
+                int j = 0;
+                for (int i = posicaoPontos + 1; i < (pontosSalvos * 2)+posicaoPontos; i = i + 2)
+                {
+                    x[j] = int.Parse(lines[i]);
+                    y[j] = int.Parse(lines[i + 1]);
+                    j++;
+                }
+                int[] rgb = new int[3];
+                for (int i = 0; i < 3; i++)
+                {
+                    rgb[i] = int.Parse(lines[posicaoPontos + (pontosSalvos * 2) + 1 + i]);
+                }
+                float[] dashPattern = new float[int.Parse(lines[posicaoPontos + (pontosSalvos * 2) + 5])];
+                for (int i = 0; i < int.Parse(lines[posicaoPontos + (pontosSalvos * 2) + 5]); i++)
+                {
+                    dashPattern[i] = int.Parse(lines[posicaoPontos + (pontosSalvos * 2) + 6 + i]);
+                }
 
-            if (lines[lines.Length -1] == "caneta1")
-            {
-                caneta1 = CriaCaneta(rgb[0], rgb[1], rgb[2], int.Parse(lines[1 + (pontosSalvos * 2) + 4]), dashPattern);
-                mouseButtonClick = true;
-                Cor1Ou2 = true;
+                if (lines[lines.Length - 1] == "caneta1")
+                {
+                    caneta1 = CriaCaneta(rgb[0], rgb[1], rgb[2], int.Parse(lines[posicaoPontos + (pontosSalvos * 2) + 4]), dashPattern);
+                    mouseButtonClick = true;
+                    Cor1Ou2 = true;
+                }
+                else
+                {
+                    caneta2 = CriaCaneta(rgb[0], rgb[1], rgb[2], int.Parse(lines[posicaoPontos + (pontosSalvos * 2) + 4]), dashPattern);
+                    mouseButtonClick = false;
+                    Cor1Ou2 = false;
+                }
+                pintar = true;
+                Invalidate();
             }
-            else
-            {
-                caneta2 = CriaCaneta(rgb[0], rgb[1], rgb[2], int.Parse(lines[1 + (pontosSalvos * 2) + 4]), dashPattern);
-                mouseButtonClick = false;
-                Cor1Ou2 = false;
-            }
-            pintar = true;
-            Invalidate();
         }
 
         private void Form1_Paint(object sender, PaintEventArgs e)
@@ -723,62 +771,69 @@ namespace Projeto2Bim
 
                 if (pontos >= 2)
                 {
-                    switch (tipoDesenho)
+
+
+                    if (tipoDesenho == "linha")
                     {
-                        case "linha":
-                            Linha(e, x[0], y[0], x[1], y[1], Caneta);
-                            pontosSalvos = pontos;
-                            pontos = 0;
-                            break;
-
-                        case "retangulo":
-                            Retangulo(e, x[0], y[0], x[1], y[1]);
-                            pontosSalvos = pontos;
-                            pontos = 0;
-                            break;
-
-                        case "losango":
-                            if (pontos == 4)
-                            {
-                                Losango(e, x[0], y[0], x[1], y[1], x[2], y[2], x[3], y[3]);
-                                pontosSalvos = pontos;
-                                pontos = 0;
-                            }
-                            break;
-                        case "triangulo":
-                            if (pontos == 3)
-                            {
-                                Triangulo(e, x[0], y[0], x[1], y[1], x[2], y[2]);
-                                pontosSalvos = pontos;
-                                pontos = 0;
-                            }
-                            break;
-                        case "pentagono":
-                            if (pontos == 5)
-                            {
-                                Pentagono(e, x[0], y[0], x[1], y[1], x[2], y[2], x[3], y[3], x[4], y[4]);
-                                pontosSalvos = pontos;
-                                pontos = 0;
-                            }
-                            break;
-
-
-                    }
-                }
-                else if (pontos == 1 && tipoDesenho == "elipse")
-                {
-                    DialogResult dialogResult = MessageBox.Show("Desenha desenhar uma Elipse?", "Elipse ou Circulo?", MessageBoxButtons.YesNo);
-                    if (dialogResult == DialogResult.Yes)
-                    {
-                        int Largura = int.Parse(Microsoft.VisualBasic.Interaction.InputBox("Selecione a largura", "Largura  Elipse", "", 150, 150));
-                        int Altura = int.Parse(Microsoft.VisualBasic.Interaction.InputBox("Selecione a altura", "Altura Elipse", "", 150, 150));
-                        Elipse(e, x[0], y[0], Largura, Altura);
+                        Linha(e, x[0], y[0], x[1], y[1], Caneta);
                         pontosSalvos = pontos;
                         pontos = 0;
                     }
-                    else if (dialogResult == DialogResult.No)
+                    else if (tipoDesenho == "retangulo")
                     {
-                        int raio = int.Parse(Microsoft.VisualBasic.Interaction.InputBox("Selecione o raio", "Raio Circulo", "", 150, 150));
+                        Retangulo(e, x[0], y[0], x[1], y[1]);
+                        pontosSalvos = pontos;
+                        pontos = 0;
+                    }
+                    else if (tipoDesenho == "losango")
+                    {
+                        if (pontos == 4)
+                        {
+                            Losango(e, x[0], y[0], x[1], y[1], x[2], y[2], x[3], y[3]);
+                            pontosSalvos = pontos;
+                            pontos = 0;
+                        }
+                    }
+                    else if (tipoDesenho == "triangulo")
+                    {
+                        if (pontos == 3)
+                        {
+                            Triangulo(e, x[0], y[0], x[1], y[1], x[2], y[2]);
+                            pontosSalvos = pontos;
+                            pontos = 0;
+                        }
+                    }
+                    else if (tipoDesenho == "pentagono")
+                    {
+                        if (pontos == 5)
+                        {
+                            Pentagono(e, x[0], y[0], x[1], y[1], x[2], y[2], x[3], y[3], x[4], y[4]);
+                            pontosSalvos = pontos;
+                            pontos = 0;
+                        }
+                    }
+                }
+                else if (pontos == 1 && tipoDesenho == "elipse" || tipoDesenho == "circulo")
+                {
+                    
+                    if (tipoDesenho == "elipse")
+                    {
+                        if (largura == 0 && altura == 0)
+                        {
+                            largura = int.Parse(Microsoft.VisualBasic.Interaction.InputBox("Selecione a largura", "Largura  Elipse", "", 100, 100));
+                            altura = int.Parse(Microsoft.VisualBasic.Interaction.InputBox("Selecione a altura", "Altura Elipse", "", 100, 100));
+                        }
+                        Elipse(e, x[0], y[0], largura, altura);
+                        pontosSalvos = pontos;
+                        pontos = 0;
+                    }
+                    else 
+                    {
+                        MessageBox.Show("teste");
+                        if (raio == 0)
+                        {
+                            raio = int.Parse(Microsoft.VisualBasic.Interaction.InputBox("Selecione o raio", "Raio Circulo", "", 100, 100));
+                        }
                         Circulo(e, x[0], y[0], raio, 0, 360);
                         pontosSalvos = pontos;
                         pontos = 0;
