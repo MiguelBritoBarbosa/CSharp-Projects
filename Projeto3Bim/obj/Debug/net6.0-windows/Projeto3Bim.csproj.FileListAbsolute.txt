@@ -1,0 +1,17 @@
+C:\Users\Migue\Documents\GitHub\CSharp-Projects\Projeto3Bim\bin\Debug\net6.0-windows\Projeto3Bim.exe
+C:\Users\Migue\Documents\GitHub\CSharp-Projects\Projeto3Bim\bin\Debug\net6.0-windows\Projeto3Bim.deps.json
+C:\Users\Migue\Documents\GitHub\CSharp-Projects\Projeto3Bim\bin\Debug\net6.0-windows\Projeto3Bim.runtimeconfig.json
+C:\Users\Migue\Documents\GitHub\CSharp-Projects\Projeto3Bim\bin\Debug\net6.0-windows\Projeto3Bim.dll
+C:\Users\Migue\Documents\GitHub\CSharp-Projects\Projeto3Bim\bin\Debug\net6.0-windows\Projeto3Bim.pdb
+C:\Users\Migue\Documents\GitHub\CSharp-Projects\Projeto3Bim\obj\Debug\net6.0-windows\Projeto3Bim.csproj.AssemblyReference.cache
+C:\Users\Migue\Documents\GitHub\CSharp-Projects\Projeto3Bim\obj\Debug\net6.0-windows\Projeto3Bim.Form1.resources
+C:\Users\Migue\Documents\GitHub\CSharp-Projects\Projeto3Bim\obj\Debug\net6.0-windows\Projeto3Bim.csproj.GenerateResource.cache
+C:\Users\Migue\Documents\GitHub\CSharp-Projects\Projeto3Bim\obj\Debug\net6.0-windows\Projeto3Bim.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Migue\Documents\GitHub\CSharp-Projects\Projeto3Bim\obj\Debug\net6.0-windows\Projeto3Bim.AssemblyInfoInputs.cache
+C:\Users\Migue\Documents\GitHub\CSharp-Projects\Projeto3Bim\obj\Debug\net6.0-windows\Projeto3Bim.AssemblyInfo.cs
+C:\Users\Migue\Documents\GitHub\CSharp-Projects\Projeto3Bim\obj\Debug\net6.0-windows\Projeto3Bim.csproj.CoreCompileInputs.cache
+C:\Users\Migue\Documents\GitHub\CSharp-Projects\Projeto3Bim\obj\Debug\net6.0-windows\Projeto3Bim.dll
+C:\Users\Migue\Documents\GitHub\CSharp-Projects\Projeto3Bim\obj\Debug\net6.0-windows\refint\Projeto3Bim.dll
+C:\Users\Migue\Documents\GitHub\CSharp-Projects\Projeto3Bim\obj\Debug\net6.0-windows\Projeto3Bim.pdb
+C:\Users\Migue\Documents\GitHub\CSharp-Projects\Projeto3Bim\obj\Debug\net6.0-windows\Projeto3Bim.genruntimeconfig.cache
+C:\Users\Migue\Documents\GitHub\CSharp-Projects\Projeto3Bim\obj\Debug\net6.0-windows\ref\Projeto3Bim.dll
