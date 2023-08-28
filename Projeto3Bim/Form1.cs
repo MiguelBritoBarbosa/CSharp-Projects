@@ -8,7 +8,7 @@ namespace Projeto3Bim
     {
         Bitmap imgFogao = new Bitmap("C:/Imagens/Imagem_A.jpg");
         Bitmap imgPanela = new Bitmap("C:/Imagens/Panela.jpg");
-        Bitmap imgnova = new Bitmap("C:/Imagens/Imagem_A.jpg");
+        Bitmap imgnova;
 
 
         public Form1()
@@ -24,6 +24,7 @@ namespace Projeto3Bim
 
         public void BinareImage()
         {
+            imgnova = new Bitmap("C:/Imagens/escalaDeCinza.jpg");
             int coluna = imgnova.Width;
             int linha = imgnova.Height;
             Color cor;
@@ -31,7 +32,7 @@ namespace Projeto3Bim
             {
                 for (int j = 0; j <= linha - 1; j++)
                 {
-                    byte r = imgFogao.GetPixel(i, j).R;
+                    byte r = imgnova.GetPixel(i, j).R;
                     if (r <= 126)
                     {
                         cor = CriarCor(0, 0, 0);
@@ -44,8 +45,8 @@ namespace Projeto3Bim
                     }
                 }
             }
-            imgnova.Save("C:/Imagens/novaImagem3.jpg");
-            pictureBox3.Load("C:/Imagens/novaImagem3.jpg");
+            imgnova.Save("C:/Imagens/binaria.jpg");
+            pictureBox3.Load("C:/Imagens/binaria.jpg");
         }
 
         public void GrayScale()
@@ -57,20 +58,21 @@ namespace Projeto3Bim
             {
                 for (int j = 0; j <= linha - 1; j++)
                 {
-                    byte r = imgFogao.GetPixel(i, j).R;
-                    byte g = imgFogao.GetPixel(i, j).G;
-                    byte b = imgFogao.GetPixel(i, j).B;
+                    byte r = imgnova.GetPixel(i, j).R;
+                    byte g = imgnova.GetPixel(i, j).G;
+                    byte b = imgnova.GetPixel(i, j).B;
                     byte gray = (byte)((r * 0.30) + (g * 0.59) + (b * 0.11));
                     cor = CriarCor(gray, gray, gray);
                     imgnova.SetPixel(i, j, cor);
                 }
             }
-            imgnova.Save("C:/Imagens/novaImagem2.jpg");
-            pictureBox2.Load("C:/Imagens/novaImagem2.jpg");
+            imgnova.Save("C:/Imagens/escalaDeCinza.jpg");
+            pictureBox2.Load("C:/Imagens/escalaDeCinza.jpg");
         }
 
         public void ProcessarImagens()
         {
+            imgnova = imgFogao;
             int coluna = imgPanela.Width;
             int linha = imgPanela.Height;
             Color cor;
@@ -93,8 +95,8 @@ namespace Projeto3Bim
             }
 
 
-            imgnova.Save("C:/Imagens/novaImagem.jpg");
-            pictureBox1.Load("C:/Imagens/novaImagem.jpg");
+            imgnova.Save("C:/Imagens/fogaoComPanela.jpg");
+            pictureBox1.Load("C:/Imagens/fogaoComPanela.jpg");
         }
 
 
